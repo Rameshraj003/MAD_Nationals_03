@@ -126,6 +126,7 @@ class _QuizzlerPageState extends State<QuizzlerPage> {
                 child: Center(
                   child: Text(
                     quiz.getQuestion().question,
+                    key: Key("text"),
                     style: TextStyle(
                       fontStyle: FontStyle.italic,
                       color: Colors.white,
@@ -141,6 +142,7 @@ class _QuizzlerPageState extends State<QuizzlerPage> {
                     horizontal: 10.0,
                   ),
                   child: FlatButton(
+                    key: Key("true"),
                     onPressed: () {
                       setState(() {
                         evaluateResult(true);
@@ -165,6 +167,7 @@ class _QuizzlerPageState extends State<QuizzlerPage> {
                     horizontal: 10.0,
                   ),
                   child: FlatButton(
+                    key: Key("false"),
                     onPressed: () {
                       setState(() {
                         evaluateResult(false);
