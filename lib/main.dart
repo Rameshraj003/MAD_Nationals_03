@@ -6,6 +6,7 @@ import 'high_score_store.dart';
 import 'question_store.dart';
 import 'quiz.dart';
 
+//added keys for better testability and readability
 void main() {
   runApp(MyApp());
 }
