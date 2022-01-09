@@ -5,6 +5,7 @@ import 'package:Quizzler/leaderboard.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
+//component_test
 void main() {
   group('component_test', () {
     testWidgets(
