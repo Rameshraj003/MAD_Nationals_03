@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:integration_test/integration_test.dart';
 
+//app_test
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
